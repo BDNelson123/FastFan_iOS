@@ -160,32 +160,6 @@
     <resources>
         <image name="fastfan_logo.png" width="220" height="71"/>
     </resources>
-    <classes>
-        <class className="ECSlidingViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ECSlidingViewController.h"/>
-        </class>
-        <class className="FastFanInitViewController" superclassName="ECSlidingViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FastFanInitViewController.h"/>
-        </class>
-        <class className="FastFanMainViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FastFanMainViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="revealMenu:"/>
-            </relationships>
-        </class>
-        <class className="FastFanMenuViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FastFanMenuViewController.h"/>
-        </class>
-        <class className="FastFanSecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FastFanSecondViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="revealMenu:"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

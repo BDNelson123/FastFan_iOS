@@ -40,7 +40,7 @@
     
     self.menu = [NSArray arrayWithObjects:@"Main", @"Second", nil];
     
-    [self.slidingViewController setAnchorRightRevealAmount:200.0f];
+    [self.slidingViewController setAnchorRightRevealAmount:250.0f];
     self.slidingViewController.underLeftWidthLayout = ECFullWidth;
 
 }
