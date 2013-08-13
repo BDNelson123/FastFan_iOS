@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B916DBC17BA8C3C005E2A3F /* FastFanInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DBB17BA8C3C005E2A3F /* FastFanInitViewController.m */; };
+		4B916DBF17BA8C58005E2A3F /* FastFanMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DBE17BA8C58005E2A3F /* FastFanMenuViewController.m */; };
+		4B916DC217BA8C75005E2A3F /* FastFanMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DC117BA8C75005E2A3F /* FastFanMainViewController.m */; };
+		4B916DC517BA8C80005E2A3F /* FastFanSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DC417BA8C80005E2A3F /* FastFanSecondViewController.m */; };
+		4B916DFA17BAB2FA005E2A3F /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DF717BAB2FA005E2A3F /* ECSlidingViewController.m */; };
+		4B916DFB17BAB2FA005E2A3F /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DF917BAB2FA005E2A3F /* UIImage+ImageWithUIView.m */; };
+		4B916DFD17BAB416005E2A3F /* MenuButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B916DFC17BAB416005E2A3F /* MenuButton@2x.png */; };
 		4BA17D7F17B994B600855E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA17D7E17B994B600855E5C /* UIKit.framework */; };
 		4BA17D8117B994B600855E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA17D8017B994B600855E5C /* Foundation.framework */; };
 		4BA17D8317B994B600855E5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA17D8217B994B600855E5C /* CoreGraphics.framework */; };
@@ -17,10 +24,23 @@
 		4BA17D9317B994B600855E5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA17D9217B994B600855E5C /* Default@2x.png */; };
 		4BA17D9517B994B600855E5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA17D9417B994B600855E5C /* Default-568h@2x.png */; };
 		4BA17D9817B994B600855E5C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA17D9617B994B600855E5C /* MainStoryboard.storyboard */; };
-		4BA17D9B17B994B600855E5C /* FastFanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA17D9A17B994B600855E5C /* FastFanViewController.m */; };
+		4BA17DA217B9B71300855E5C /* fastfan_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA17DA117B9B71300855E5C /* fastfan_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B916DBA17BA8C3C005E2A3F /* FastFanInitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanInitViewController.h; sourceTree = "<group>"; };
+		4B916DBB17BA8C3C005E2A3F /* FastFanInitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanInitViewController.m; sourceTree = "<group>"; };
+		4B916DBD17BA8C58005E2A3F /* FastFanMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanMenuViewController.h; sourceTree = "<group>"; };
+		4B916DBE17BA8C58005E2A3F /* FastFanMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanMenuViewController.m; sourceTree = "<group>"; };
+		4B916DC017BA8C75005E2A3F /* FastFanMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanMainViewController.h; sourceTree = "<group>"; };
+		4B916DC117BA8C75005E2A3F /* FastFanMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanMainViewController.m; sourceTree = "<group>"; };
+		4B916DC317BA8C80005E2A3F /* FastFanSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanSecondViewController.h; sourceTree = "<group>"; };
+		4B916DC417BA8C80005E2A3F /* FastFanSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanSecondViewController.m; sourceTree = "<group>"; };
+		4B916DF617BAB2FA005E2A3F /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		4B916DF717BAB2FA005E2A3F /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		4B916DF817BAB2FA005E2A3F /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		4B916DF917BAB2FA005E2A3F /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		4B916DFC17BAB416005E2A3F /* MenuButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MenuButton@2x.png"; path = "../../MenuButton@2x.png"; sourceTree = "<group>"; };
 		4BA17D7B17B994B600855E5C /* FastFan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastFan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA17D7E17B994B600855E5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4BA17D8017B994B600855E5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +55,7 @@
 		4BA17D9217B994B600855E5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4BA17D9417B994B600855E5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4BA17D9717B994B600855E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4BA17D9917B994B600855E5C /* FastFanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastFanViewController.h; sourceTree = "<group>"; };
-		4BA17D9A17B994B600855E5C /* FastFanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastFanViewController.m; sourceTree = "<group>"; };
+		4BA17DA117B9B71300855E5C /* fastfan_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fastfan_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +72,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B916DF517BAB2F9005E2A3F /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B916DF617BAB2FA005E2A3F /* ECSlidingViewController.h */,
+				4B916DF717BAB2FA005E2A3F /* ECSlidingViewController.m */,
+				4B916DF817BAB2FA005E2A3F /* UIImage+ImageWithUIView.h */,
+				4B916DF917BAB2FA005E2A3F /* UIImage+ImageWithUIView.m */,
+			);
+			name = ECSlidingViewController;
+			path = ../../ECSlidingViewController;
+			sourceTree = "<group>";
+		};
 		4BA17D7217B994B600855E5C = {
 			isa = PBXGroup;
 			children = (
@@ -83,12 +114,20 @@
 		4BA17D8417B994B600855E5C /* FastFan */ = {
 			isa = PBXGroup;
 			children = (
+				4B916DFC17BAB416005E2A3F /* MenuButton@2x.png */,
+				4B916DF517BAB2F9005E2A3F /* ECSlidingViewController */,
 				4BA17D8D17B994B600855E5C /* FastFanAppDelegate.h */,
 				4BA17D8E17B994B600855E5C /* FastFanAppDelegate.m */,
 				4BA17D9617B994B600855E5C /* MainStoryboard.storyboard */,
-				4BA17D9917B994B600855E5C /* FastFanViewController.h */,
-				4BA17D9A17B994B600855E5C /* FastFanViewController.m */,
 				4BA17D8517B994B600855E5C /* Supporting Files */,
+				4B916DBA17BA8C3C005E2A3F /* FastFanInitViewController.h */,
+				4B916DBB17BA8C3C005E2A3F /* FastFanInitViewController.m */,
+				4B916DBD17BA8C58005E2A3F /* FastFanMenuViewController.h */,
+				4B916DBE17BA8C58005E2A3F /* FastFanMenuViewController.m */,
+				4B916DC017BA8C75005E2A3F /* FastFanMainViewController.h */,
+				4B916DC117BA8C75005E2A3F /* FastFanMainViewController.m */,
+				4B916DC317BA8C80005E2A3F /* FastFanSecondViewController.h */,
+				4B916DC417BA8C80005E2A3F /* FastFanSecondViewController.m */,
 			);
 			path = FastFan;
 			sourceTree = "<group>";
@@ -96,6 +135,7 @@
 		4BA17D8517B994B600855E5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4BA17DA117B9B71300855E5C /* fastfan_logo.png */,
 				4BA17D8617B994B600855E5C /* FastFan-Info.plist */,
 				4BA17D8717B994B600855E5C /* InfoPlist.strings */,
 				4BA17D8A17B994B600855E5C /* main.m */,
@@ -164,6 +204,8 @@
 				4BA17D9317B994B600855E5C /* Default@2x.png in Resources */,
 				4BA17D9517B994B600855E5C /* Default-568h@2x.png in Resources */,
 				4BA17D9817B994B600855E5C /* MainStoryboard.storyboard in Resources */,
+				4BA17DA217B9B71300855E5C /* fastfan_logo.png in Resources */,
+				4B916DFD17BAB416005E2A3F /* MenuButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +218,12 @@
 			files = (
 				4BA17D8B17B994B600855E5C /* main.m in Sources */,
 				4BA17D8F17B994B600855E5C /* FastFanAppDelegate.m in Sources */,
-				4BA17D9B17B994B600855E5C /* FastFanViewController.m in Sources */,
+				4B916DBC17BA8C3C005E2A3F /* FastFanInitViewController.m in Sources */,
+				4B916DBF17BA8C58005E2A3F /* FastFanMenuViewController.m in Sources */,
+				4B916DC217BA8C75005E2A3F /* FastFanMainViewController.m in Sources */,
+				4B916DC517BA8C80005E2A3F /* FastFanSecondViewController.m in Sources */,
+				4B916DFA17BAB2FA005E2A3F /* ECSlidingViewController.m in Sources */,
+				4B916DFB17BAB2FA005E2A3F /* UIImage+ImageWithUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +346,7 @@
 				4BA17DA017B994B600855E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
