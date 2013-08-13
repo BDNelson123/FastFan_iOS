@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B916DBC17BA8C3C005E2A3F /* FastFanInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DBB17BA8C3C005E2A3F /* FastFanInitViewController.m */; };
 		4B916DBF17BA8C58005E2A3F /* FastFanMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DBE17BA8C58005E2A3F /* FastFanMenuViewController.m */; };
-		4B916DC217BA8C75005E2A3F /* FastFanMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DC117BA8C75005E2A3F /* FastFanMainViewController.m */; };
-		4B916DC517BA8C80005E2A3F /* FastFanSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DC417BA8C80005E2A3F /* FastFanSecondViewController.m */; };
+		4B916DC217BA8C75005E2A3F /* FastFanProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DC117BA8C75005E2A3F /* FastFanProfileViewController.m */; };
+		4B916DC517BA8C80005E2A3F /* FastFanFanFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DC417BA8C80005E2A3F /* FastFanFanFeedViewController.m */; };
 		4B916DFA17BAB2FA005E2A3F /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DF717BAB2FA005E2A3F /* ECSlidingViewController.m */; };
 		4B916DFB17BAB2FA005E2A3F /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B916DF917BAB2FA005E2A3F /* UIImage+ImageWithUIView.m */; };
 		4B916DFD17BAB416005E2A3F /* MenuButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B916DFC17BAB416005E2A3F /* MenuButton@2x.png */; };
@@ -32,10 +32,10 @@
 		4B916DBB17BA8C3C005E2A3F /* FastFanInitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanInitViewController.m; sourceTree = "<group>"; };
 		4B916DBD17BA8C58005E2A3F /* FastFanMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanMenuViewController.h; sourceTree = "<group>"; };
 		4B916DBE17BA8C58005E2A3F /* FastFanMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanMenuViewController.m; sourceTree = "<group>"; };
-		4B916DC017BA8C75005E2A3F /* FastFanMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanMainViewController.h; sourceTree = "<group>"; };
-		4B916DC117BA8C75005E2A3F /* FastFanMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanMainViewController.m; sourceTree = "<group>"; };
-		4B916DC317BA8C80005E2A3F /* FastFanSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanSecondViewController.h; sourceTree = "<group>"; };
-		4B916DC417BA8C80005E2A3F /* FastFanSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanSecondViewController.m; sourceTree = "<group>"; };
+		4B916DC017BA8C75005E2A3F /* FastFanProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanProfileViewController.h; sourceTree = "<group>"; };
+		4B916DC117BA8C75005E2A3F /* FastFanProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanProfileViewController.m; sourceTree = "<group>"; };
+		4B916DC317BA8C80005E2A3F /* FastFanFanFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFanFanFeedViewController.h; sourceTree = "<group>"; };
+		4B916DC417BA8C80005E2A3F /* FastFanFanFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastFanFanFeedViewController.m; sourceTree = "<group>"; };
 		4B916DF617BAB2FA005E2A3F /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
 		4B916DF717BAB2FA005E2A3F /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
 		4B916DF817BAB2FA005E2A3F /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
@@ -124,10 +124,10 @@
 				4B916DBB17BA8C3C005E2A3F /* FastFanInitViewController.m */,
 				4B916DBD17BA8C58005E2A3F /* FastFanMenuViewController.h */,
 				4B916DBE17BA8C58005E2A3F /* FastFanMenuViewController.m */,
-				4B916DC017BA8C75005E2A3F /* FastFanMainViewController.h */,
-				4B916DC117BA8C75005E2A3F /* FastFanMainViewController.m */,
-				4B916DC317BA8C80005E2A3F /* FastFanSecondViewController.h */,
-				4B916DC417BA8C80005E2A3F /* FastFanSecondViewController.m */,
+				4B916DC017BA8C75005E2A3F /* FastFanProfileViewController.h */,
+				4B916DC117BA8C75005E2A3F /* FastFanProfileViewController.m */,
+				4B916DC317BA8C80005E2A3F /* FastFanFanFeedViewController.h */,
+				4B916DC417BA8C80005E2A3F /* FastFanFanFeedViewController.m */,
 			);
 			path = FastFan;
 			sourceTree = "<group>";
@@ -220,8 +220,8 @@
 				4BA17D8F17B994B600855E5C /* FastFanAppDelegate.m in Sources */,
 				4B916DBC17BA8C3C005E2A3F /* FastFanInitViewController.m in Sources */,
 				4B916DBF17BA8C58005E2A3F /* FastFanMenuViewController.m in Sources */,
-				4B916DC217BA8C75005E2A3F /* FastFanMainViewController.m in Sources */,
-				4B916DC517BA8C80005E2A3F /* FastFanSecondViewController.m in Sources */,
+				4B916DC217BA8C75005E2A3F /* FastFanProfileViewController.m in Sources */,
+				4B916DC517BA8C80005E2A3F /* FastFanFanFeedViewController.m in Sources */,
 				4B916DFA17BAB2FA005E2A3F /* ECSlidingViewController.m in Sources */,
 				4B916DFB17BAB2FA005E2A3F /* UIImage+ImageWithUIView.m in Sources */,
 			);

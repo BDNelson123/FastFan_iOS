@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FastFanMainViewController : UIViewController
+@interface FastFanProfileViewController : UIViewController
 
 @property (strong, nonatomic) UIButton *menuBtn;
 

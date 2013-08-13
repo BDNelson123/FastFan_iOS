@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 Benjamin Nelson. All rights reserved.
 //
 
-#import "FastFanMainViewController.h"
+#import "FastFanProfileViewController.h"
 #import "ECSlidingViewController.h"
 #import "FastFanMenuViewController.h"
 
-@interface FastFanMainViewController ()
+@interface FastFanProfileViewController ()
 
 @end
 
-@implementation FastFanMainViewController
+@implementation FastFanProfileViewController
 
 @synthesize menuBtn;
 
